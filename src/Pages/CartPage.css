@@ -1,0 +1,45 @@
+/* CartPage.css */
+
+.cart-container {
+    margin: 20px;
+    display: flex;
+}
+
+.cart-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0;
+    gap: 10px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartImg img {
+    max-width: 100px;   
+    height: auto;
+    margin-right: 10px;
+}
+
+.cartItem {
+    font-size: 16px;
+    
+}
+.remove-btn{
+    height: 30px;
+    color: wheat;
+    background-color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+}
+.buy-btn{
+    height: 30px;
+    color: wheat;
+    background-color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+}
